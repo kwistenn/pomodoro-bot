@@ -87,7 +87,7 @@ async def help(msg):
     embed.add_field(
         name="s {number of session} {length} {break time}",
         value="Create a pomodoro session. 25 minutes = 1 pom :tomato:", inline=False)
-    embed.add_field(name="!author", value="Display the creator of Pom! hint: it's tokyr#6321! :tomato:", inline=False)
+    embed.add_field(name="!author", value="Display the creator of Pom! hint: it's! :tomato:", inline=False)
 
     await msg.author.send(embed=embed)
     await msg.send("Message sent to your DMs! :tomato:")
@@ -101,9 +101,9 @@ async def author(msg):
     )
 
     embed.set_author(name="Pom! Creator")
-    embed.add_field(name="tokyr#6321",
+    embed.add_field(name="",
                     value="Polymath. I mostly do Art, Music, Writing, "
-                          "Coding and many other interests.⁣ My Social Media: https://lnk.bio/zygA")
+                          "Coding and many other interests.⁣ My Social Media:")
     embed.set_thumbnail(
         url="https://images.curiator.com/images/t_x/art/u14gmpwplrcfpkghekmo/kuvshinov-ilya-untitled.jpg")
 
