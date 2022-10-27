@@ -107,7 +107,7 @@ async def author(msg):
     embed.set_thumbnail(
         url="https://images.curiator.com/images/t_x/art/u14gmpwplrcfpkghekmo/kuvshinov-ilya-untitled.jpg")
 
-    await msg.send("Pom! is created by tokyr#6321! :tomato:")
+    await msg.send("Pom! is created by ! :tomato:")
     await msg.send(embed=embed)
 
 
